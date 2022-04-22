@@ -21,7 +21,7 @@ import * as greengrass from './greengrass/discoveryclient';
 import * as iotjobs from './iotjobs/iotjobsclient';
 import * as iotshadow from './iotshadow/iotshadowclient';
 
-import { mqtt, auth, http, io, iot } from 'aws-crt/dist.browser/browser';
+import { mqtt, http, io, iot } from 'aws-crt/dist.browser/browser';
 
 export {
     iotidentity,
@@ -29,7 +29,6 @@ export {
     iotjobs,
     iotshadow,
     mqtt,
-    auth,
     http,
     io,
     iot
